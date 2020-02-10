@@ -86,7 +86,7 @@ class Footer extends React.Component {
           </div>
         </section>
 
-        <a
+        {/* <a
           href="https://opensource.facebook.com/"
           target="_blank"
           rel="noreferrer noopener"
@@ -98,7 +98,7 @@ class Footer extends React.Component {
             width="170"
             height="45"
           />
-        </a>
+        </a> */}
         <section className="copyright">{this.props.config.copyright}</section>
       </footer>
     );

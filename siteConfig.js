@@ -8,6 +8,13 @@
 // See https://docusaurus.io/docs/site-config for all the possible
 // site configuration options.
 const path = require('path');
+// const WebFont = require('webfontloader');
+
+// WebFont.load({
+//   google: {
+//     families: ["Roboto"]
+//   }
+// })
 
 // List of projects/orgs using your project for the users page.
 const users = [
@@ -26,25 +33,25 @@ const siteConfig = {
   // as the package.json file for now
   customDocsPath: path.basename(__dirname) + '/docs',
 
-  title: 'Test Site', // Title for your website.
-  tagline: 'A website for testing',
-  url: 'https://your-docusaurus-test-site.com', // Your website URL
+  title: 'Spacenditure', // Title for your website.
+  tagline: "Let's explore space",
+  url: 'https://spacenditure.com', // Your website URL
   baseUrl: '/', // Base URL for your project */
   // For github.io type URLs, you would set the url and baseUrl like:
   //   url: 'https://facebook.github.io',
   //   baseUrl: '/test-site/',
 
   // Used for publishing and more
-  projectName: 'test-site',
-  organizationName: 'facebook',
+  projectName: 'spacenditure',
+  organizationName: 'spacenditure',
   // For top-level user or org sites, the organization is still the same.
   // e.g., for the https://JoelMarcey.github.io site, it would be set like...
   //   organizationName: 'JoelMarcey'
 
   // For no header links in the top nav bar -> headerLinks: [],
   headerLinks: [
-    { doc: 'doc1', label: 'Docs' },
-    { doc: 'doc4', label: 'API' },
+    { doc: 'doc1', label: 'Article' },
+    // { doc: 'doc4', label: 'API' },
     { page: 'help', label: 'Help' },
     { blog: true, label: 'Blog' },
   ],
@@ -59,14 +66,21 @@ const siteConfig = {
 
   /* Colors for website */
   colors: {
-    primaryColor: '#03453a',
-    secondaryColor: '#023028',
+    // primaryColor: '#6200EE', // Material UI
+    // secondaryColor: '#03DAC6' // Material UI
+
+    // primaryColor: '#03453a',
+    // secondaryColor: '#023028',
+
+    primaryColor: '#233269',
+    secondaryColor: '#03DAC6' // Material UI
   },
 
   /* Custom fonts for website */
-  /*
+  
   fonts: {
     myFont: [
+      "Roboto",
       "Times New Roman",
       "Serif"
     ],
@@ -75,10 +89,10 @@ const siteConfig = {
       "system-ui"
     ]
   },
-  */
+  
 
   // This copyright info is used in /core/Footer.js and blog RSS/Atom feeds.
-  copyright: `Copyright © ${new Date().getFullYear()} Your Name or Your Company Name`,
+  copyright: `Copyright © ${new Date().getFullYear()} Spacenditure`,
 
   highlight: {
     // Highlight.js theme to use for syntax highlighting in code blocks.
