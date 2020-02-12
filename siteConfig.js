@@ -8,13 +8,6 @@
 // See https://docusaurus.io/docs/site-config for all the possible
 // site configuration options.
 const path = require('path');
-// const WebFont = require('webfontloader');
-
-// WebFont.load({
-//   google: {
-//     families: ["Roboto"]
-//   }
-// })
 
 // List of projects/orgs using your project for the users page.
 const users = [
@@ -31,7 +24,9 @@ const users = [
 const siteConfig = {
   // We need to keep the docs folder in the same folder
   // as the package.json file for now
-  customDocsPath: path.basename(__dirname) + '/docs',
+  customDocsPath: path.basename(__dirname) + '/article',
+
+  docsUrl: 'article',
 
   title: 'Spacenditure', // Title for your website.
   tagline: "Let's explore space",
@@ -50,10 +45,11 @@ const siteConfig = {
 
   // For no header links in the top nav bar -> headerLinks: [],
   headerLinks: [
-    { doc: 'doc1', label: 'Article' },
+    { search: true },
+    { doc: 'article1', label: 'Article' },
     // { doc: 'doc4', label: 'API' },
     { page: 'help', label: 'Help' },
-    { blog: true, label: 'Blog' },
+    { blog: true, label: 'Blog' }
   ],
 
   // If you have users set above, you add it here:
@@ -78,17 +74,17 @@ const siteConfig = {
 
   /* Custom fonts for website */
   
-  fonts: {
-    myFont: [
-      "Roboto",
-      "Times New Roman",
-      "Serif"
-    ],
-    myOtherFont: [
-      "-apple-system",
-      "system-ui"
-    ]
-  },
+  // fonts: {
+  //   myFont: [
+  //     "Roboto",
+  //     "Times New Roman",
+  //     "Serif"
+  //   ],
+  //   myOtherFont: [
+  //     "-apple-system",
+  //     "system-ui"
+  //   ]
+  // },
   
 
   // This copyright info is used in /core/Footer.js and blog RSS/Atom feeds.
@@ -101,6 +97,9 @@ const siteConfig = {
 
   // Add custom scripts here that would be placed in <script> tags.
   scripts: ['https://buttons.github.io/buttons.js'],
+
+
+  // stylesheets: ['styles.css'],
 
   // On page navigation for the current documentation page.
   onPageNav: 'separate',

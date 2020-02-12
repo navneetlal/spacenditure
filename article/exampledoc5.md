@@ -1,5 +1,5 @@
 ---
-id: doc5
+id: article5
 title: Fifth Document
 ---
 
