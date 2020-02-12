@@ -5,6 +5,7 @@
     "dev": "docusaurus-start --port $PORT",
     "build": "docusaurus-build",
     "publish-gh-pages": "docusaurus-publish",
+    "publish": "now --prod",
     "write-translations": "docusaurus-write-translations",
     "version": "docusaurus-version",
     "rename-version": "docusaurus-rename-version"

@@ -110,6 +110,12 @@ const siteConfig = {
   ogImage: 'img/undraw_online.svg',
   twitterImage: 'img/undraw_tweetstorm.svg',
 
+  algolia: {
+    apiKey: 'b8ea6a3cc10bfe23536ae8ebe45e9262',
+    indexName: 'dev_spacenditure',
+    algoliaOptions: {} // Optional, if provided by Algolia
+  },
+
   // Show documentation's last contributor's name.
   // enableUpdateBy: true,
 
