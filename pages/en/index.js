@@ -17,9 +17,9 @@ class HomeSplash extends React.Component {
   render() {
     const { siteConfig, language = '' } = this.props;
     const { baseUrl, docsUrl } = siteConfig;
-    const docsPart = `${docsUrl ? `${docsUrl}/` : ''}`;
-    const langPart = `${language ? `${language}/` : ''}`;
-    const docUrl = doc => `${baseUrl}${docsPart}${langPart}${doc}`;
+    // const docsPart = `${docsUrl ? `${docsUrl}/` : ''}`;
+    // const langPart = `${language ? `${language}/` : ''}`;
+    // const docUrl = doc => `${baseUrl}${docsPart}${langPart}${doc}`;
 
     const SplashContainer = props => (
       <div className="homeContainer">

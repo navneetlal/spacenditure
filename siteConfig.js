@@ -48,9 +48,12 @@ const siteConfig = {
     { search: true },
     { doc: 'article1', label: 'Article' },
     // { doc: 'doc4', label: 'API' },
+    { blog: true, label: 'Blog' },
     { page: 'help', label: 'Help' },
-    { blog: true, label: 'Blog' }
+    // { page: 'about', label: 'About' }
   ],
+
+  editUrl: 'https://github.com/navneetlal/spacenditure/edit/master/article/',
 
   // If you have users set above, you add it here:
   users,
@@ -69,7 +72,7 @@ const siteConfig = {
     // secondaryColor: '#023028',
 
     primaryColor: '#233269',
-    secondaryColor: '#03DAC6' // Material UI
+    secondaryColor: '#6395EC' 
   },
 
   /* Custom fonts for website */
@@ -92,7 +95,7 @@ const siteConfig = {
 
   highlight: {
     // Highlight.js theme to use for syntax highlighting in code blocks.
-    theme: 'default',
+    theme: 'googlecode',
   },
 
   // Add custom scripts here that would be placed in <script> tags.
@@ -117,14 +120,14 @@ const siteConfig = {
   },
 
   // Show documentation's last contributor's name.
-  // enableUpdateBy: true,
+  enableUpdateBy: true,
 
   // Show documentation's last update time.
-  // enableUpdateTime: true,
+  enableUpdateTime: true,
 
   // You may provide arbitrary config keys to be used as needed by your
   // template. For example, if you need your repo's URL...
-  //   repoUrl: 'https://github.com/facebook/test-site',
+    repoUrl: 'https://github.com/navneetlal/spacenditure',
 };
 
 module.exports = siteConfig;
