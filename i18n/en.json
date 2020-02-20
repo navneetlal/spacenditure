@@ -24,8 +24,8 @@
     },
     "links": {
       "Article": "Article",
-      "Help": "Help",
-      "Blog": "Blog"
+      "Blog": "Blog",
+      "Help": "Help"
     },
     "categories": {
       "Docusaurus": "Docusaurus",
