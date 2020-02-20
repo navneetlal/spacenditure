@@ -125,6 +125,12 @@ const siteConfig = {
   // Show documentation's last update time.
   enableUpdateTime: true,
 
+  // Expand/collapse the links and subcategories in the sidebar.
+  // docsSideNavCollapsible: true,
+
+  // Google Analytics tracking ID to track page views.
+  gaTrackingId: "UA-133298629-1",
+
   // You may provide arbitrary config keys to be used as needed by your
   // template. For example, if you need your repo's URL...
     repoUrl: 'https://github.com/navneetlal/spacenditure',
